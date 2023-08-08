@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etIdActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID del Producto"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etPrecioActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo Precio"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etCantidadActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nueva Cantidad"
+        android:inputType="number" />
+
+</LinearLayout>
